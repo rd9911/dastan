@@ -1,0 +1,230 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-12-22T20:40:00Z",
+  
+  "appTitle": "Dastan",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  
+  "searchTransport": "Search Transport",
+  "@searchTransport": {
+    "description": "Label for transport search feature"
+  },
+  
+  "selectOrigin": "Select origin",
+  "@selectOrigin": {
+    "description": "Placeholder for origin input"
+  },
+  
+  "selectDestination": "Select destination",
+  "@selectDestination": {
+    "description": "Placeholder for destination input"
+  },
+  
+  "departureDate": "Departure date",
+  "@departureDate": {
+    "description": "Label for departure date field"
+  },
+  
+  "returnDate": "Return date",
+  "@returnDate": {
+    "description": "Label for return date field"
+  },
+  
+  "passengers": "Passengers",
+  "@passengers": {
+    "description": "Label for passengers field"
+  },
+  
+  "adults": "Adults",
+  "@adults": {
+    "description": "Label for adult passengers"
+  },
+  
+  "children": "Children",
+  "@children": {
+    "description": "Label for child passengers"
+  },
+  
+  "infants": "Infants",
+  "@infants": {
+    "description": "Label for infant passengers"
+  },
+  
+  "search": "Search",
+  "@search": {
+    "description": "Search button label"
+  },
+  
+  "noResultsFound": "No results found",
+  "@noResultsFound": {
+    "description": "Message when search returns no results"
+  },
+  
+  "priceFrom": "From {price}",
+  "@priceFrom": {
+    "description": "Price display with currency",
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "$99"
+      }
+    }
+  },
+  
+  "tripTypeOneWay": "One way",
+  "@tripTypeOneWay": {
+    "description": "One way trip type"
+  },
+  
+  "tripTypeRoundTrip": "Round trip",
+  "@tripTypeRoundTrip": {
+    "description": "Round trip type"
+  },
+  
+  "tripTypeMultiCity": "Multi-city",
+  "@tripTypeMultiCity": {
+    "description": "Multi-city trip type"
+  },
+  
+  "previousMonth": "Previous month",
+  "@previousMonth": {
+    "description": "Tooltip for previous month button in calendar"
+  },
+  
+  "nextMonth": "Next month",
+  "@nextMonth": {
+    "description": "Tooltip for next month button in calendar"
+  },
+  
+  "dateUnavailable": "{date}, unavailable",
+  "@dateUnavailable": {
+    "description": "Accessibility label for unavailable dates",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Monday, January 15"
+      }
+    }
+  },
+  
+  "dateTapToSelect": "{date}, tap to select",
+  "@dateTapToSelect": {
+    "description": "Accessibility label for selectable dates",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Monday, January 15"
+      }
+    }
+  },
+  
+  "cheapestDestinationsIn": "Cheapest destinations in {region}",
+  "@cheapestDestinationsIn": {
+    "description": "Header for region drilldown",
+    "placeholders": {
+      "region": {
+        "type": "String",
+        "example": "Europe"
+      }
+    }
+  },
+  
+  "groupSearch": "Group Search",
+  "@groupSearch": {
+    "description": "Title for group search feature"
+  },
+  
+  "groupSearchDescription": "Find destinations that work for everyone",
+  "@groupSearchDescription": {
+    "description": "Description for group search feature"
+  },
+  
+  "originCity": "Origin city",
+  "@originCity": {
+    "description": "Label for origin city input"
+  },
+  
+  "addOrigin": "Add origin",
+  "@addOrigin": {
+    "description": "Tooltip for add origin button"
+  },
+  
+  "removeOrigin": "Remove {origin}",
+  "@removeOrigin": {
+    "description": "Tooltip for remove origin button",
+    "placeholders": {
+      "origin": {
+        "type": "String",
+        "example": "New York"
+      }
+    }
+  },
+  
+  "findMutualDestinations": "Find Mutual Destinations",
+  "@findMutualDestinations": {
+    "description": "Button label for group search"
+  },
+  
+  "bestDestinationsForGroup": "Best destinations for your group:",
+  "@bestDestinationsForGroup": {
+    "description": "Header for group search results"
+  },
+  
+  "addAtLeastTwoOrigins": "Add at least 2 origins",
+  "@addAtLeastTwoOrigins": {
+    "description": "Error message when not enough origins"
+  },
+  
+  "transportDetailTitle": "Transport Details",
+  "@transportDetailTitle": {
+    "description": "Title for transport detail screen"
+  },
+  
+  "vendorGoTo": "Go to {vendor}",
+  "@vendorGoTo": {
+    "description": "Button label to navigate to vendor",
+    "placeholders": {
+      "vendor": {
+        "type": "String",
+        "example": "Expedia"
+      }
+    }
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button label"
+  },
+  
+  "unsave": "Unsave",
+  "@unsave": {
+    "description": "Unsave button label"
+  },
+  
+  "saved": "Saved",
+  "@saved": {
+    "description": "Confirmation message when item is saved"
+  },
+  
+  "errorGeneric": "Something went wrong",
+  "@errorGeneric": {
+    "description": "Generic error message"
+  },
+  
+  "errorNetwork": "Network error. Please check your connection.",
+  "@errorNetwork": {
+    "description": "Network error message"
+  },
+  
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button label"
+  },
+  
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading indicator text"
+  }
+}

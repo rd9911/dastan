@@ -1,0 +1,190 @@
+00:00 +0: loading /Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart                                                                                             lib/src/features/offline/domain/offline_manifest.dart:9:7: Error: The non-abstract class 'OfflineBundleManifest' is missing implementations for these members:
+ - _$OfflineBundleManifest.assets
+ - _$OfflineBundleManifest.createdAt
+ - _$OfflineBundleManifest.dayPlans
+ - _$OfflineBundleManifest.itineraryId
+ - _$OfflineBundleManifest.metadata
+ - _$OfflineBundleManifest.searchIndex
+ - _$OfflineBundleManifest.sections
+ - _$OfflineBundleManifest.toJson
+ - _$OfflineBundleManifest.version
+Try to either
+ - provide an implementation,
+ - inherit an implementation from a superclass or mixin,
+ - mark the class as abstract, or
+ - provide a 'noSuchMethod' implementation.
+class OfflineBundleManifest with _$OfflineBundleManifest {
+      ^^^^^^^^^^^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:170: Context: '_$OfflineBundleManifest.assets' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                          ^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:56: Context: '_$OfflineBundleManifest.createdAt' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                       ^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:138: Context: '_$OfflineBundleManifest.dayPlans' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                          ^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:13: Context: '_$OfflineBundleManifest.itineraryId' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+            ^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:243: Context: '_$OfflineBundleManifest.metadata' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                          ^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:205: Context: '_$OfflineBundleManifest.searchIndex' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                          ^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:110: Context: '_$OfflineBundleManifest.sections' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                          ^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:26:24: Context: '_$OfflineBundleManifest.toJson' is defined here.
+  Map<String, dynamic> toJson();
+                       ^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:18:34: Context: '_$OfflineBundleManifest.version' is defined here.
+ String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                 ^^^^^^^
+lib/src/features/offline/domain/offline_manifest.dart:30:7: Error: The non-abstract class 'BundleAsset' is missing implementations for these members:
+ - _$BundleAsset.kind
+ - _$BundleAsset.originalUrl
+ - _$BundleAsset.path
+ - _$BundleAsset.sha256
+ - _$BundleAsset.toJson
+Try to either
+ - provide an implementation,
+ - inherit an implementation from a superclass or mixin,
+ - mark the class as abstract, or
+ - provide a 'noSuchMethod' implementation.
+class BundleAsset with _$BundleAsset {
+      ^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:332:82: Context: '_$BundleAsset.kind' is defined here.
+ String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                                                                                 ^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:332:30: Context: '_$BundleAsset.originalUrl' is defined here.
+ String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                             ^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:332:13: Context: '_$BundleAsset.path' is defined here.
+ String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+            ^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:332:54: Context: '_$BundleAsset.sha256' is defined here.
+ String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                                                     ^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:340:24: Context: '_$BundleAsset.toJson' is defined here.
+  Map<String, dynamic> toJson();
+                       ^^^^^^
+lib/src/features/offline/domain/offline_manifest.dart:45:7: Error: The non-abstract class 'SearchIndexEntry' is missing implementations for these members:
+ - _$SearchIndexEntry.itemIds
+ - _$SearchIndexEntry.toJson
+ - _$SearchIndexEntry.tokenId
+Try to either
+ - provide an implementation,
+ - inherit an implementation from a superclass or mixin,
+ - mark the class as abstract, or
+ - provide a 'noSuchMethod' implementation.
+class SearchIndexEntry with _$SearchIndexEntry {
+      ^^^^^^^^^^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:604:39: Context: '_$SearchIndexEntry.itemIds' is defined here.
+ String get tokenId; List<String> get itemIds;
+                                      ^^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:612:24: Context: '_$SearchIndexEntry.toJson' is defined here.
+  Map<String, dynamic> toJson();
+                       ^^^^^^
+lib/src/features/offline/domain/offline_manifest.freezed.dart:604:13: Context: '_$SearchIndexEntry.tokenId' is defined here.
+ String get tokenId; List<String> get itemIds;
+            ^^^^^^^
+00:00 +0 -1: loading /Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart [E]                                                                                      
+  Failed to load "/Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart":
+  Compilation failed for testPath=/Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart: lib/src/features/offline/domain/offline_manifest.dart:9:7: Error: The non-abstract class 'OfflineBundleManifest' is missing implementations for these members:
+   - _$OfflineBundleManifest.assets
+   - _$OfflineBundleManifest.createdAt
+   - _$OfflineBundleManifest.dayPlans
+   - _$OfflineBundleManifest.itineraryId
+   - _$OfflineBundleManifest.metadata
+   - _$OfflineBundleManifest.searchIndex
+   - _$OfflineBundleManifest.sections
+   - _$OfflineBundleManifest.toJson
+   - _$OfflineBundleManifest.version
+  Try to either
+   - provide an implementation,
+   - inherit an implementation from a superclass or mixin,
+   - mark the class as abstract, or
+   - provide a 'noSuchMethod' implementation.
+  class OfflineBundleManifest with _$OfflineBundleManifest {
+        ^^^^^^^^^^^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:170: Context: '_$OfflineBundleManifest.assets' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                                                                                                           ^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:56: Context: '_$OfflineBundleManifest.createdAt' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                         ^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:138: Context: '_$OfflineBundleManifest.dayPlans' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                                                                           ^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:13: Context: '_$OfflineBundleManifest.itineraryId' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+              ^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:243: Context: '_$OfflineBundleManifest.metadata' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                                                                                                                                                                                    ^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:205: Context: '_$OfflineBundleManifest.searchIndex' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                                                                                                                                              ^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:110: Context: '_$OfflineBundleManifest.sections' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                                                                                               ^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:26:24: Context: '_$OfflineBundleManifest.toJson' is defined here.
+    Map<String, dynamic> toJson();
+                         ^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:18:34: Context: '_$OfflineBundleManifest.version' is defined here.
+   String get itineraryId; int get version; DateTime get createdAt; Map<ItinerarySection, List<SavedItem>> get sections; List<DayPlan> get dayPlans; List<BundleAsset> get assets; List<SearchIndexEntry> get searchIndex; Map<String, dynamic> get metadata;
+                                   ^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.dart:30:7: Error: The non-abstract class 'BundleAsset' is missing implementations for these members:
+   - _$BundleAsset.kind
+   - _$BundleAsset.originalUrl
+   - _$BundleAsset.path
+   - _$BundleAsset.sha256
+   - _$BundleAsset.toJson
+  Try to either
+   - provide an implementation,
+   - inherit an implementation from a superclass or mixin,
+   - mark the class as abstract, or
+   - provide a 'noSuchMethod' implementation.
+  class BundleAsset with _$BundleAsset {
+        ^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:332:82: Context: '_$BundleAsset.kind' is defined here.
+   String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                                                                                   ^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:332:30: Context: '_$BundleAsset.originalUrl' is defined here.
+   String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                               ^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:332:13: Context: '_$BundleAsset.path' is defined here.
+   String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+              ^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:332:54: Context: '_$BundleAsset.sha256' is defined here.
+   String get path; String get originalUrl; String get sha256; BundleAssetKind get kind;
+                                                       ^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:340:24: Context: '_$BundleAsset.toJson' is defined here.
+    Map<String, dynamic> toJson();
+                         ^^^^^^
+  lib/src/features/offline/domain/offline_manifest.dart:45:7: Error: The non-abstract class 'SearchIndexEntry' is missing implementations for these members:
+   - _$SearchIndexEntry.itemIds
+   - _$SearchIndexEntry.toJson
+   - _$SearchIndexEntry.tokenId
+  Try to either
+   - provide an implementation,
+   - inherit an implementation from a superclass or mixin,
+   - mark the class as abstract, or
+   - provide a 'noSuchMethod' implementation.
+  class SearchIndexEntry with _$SearchIndexEntry {
+        ^^^^^^^^^^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:604:39: Context: '_$SearchIndexEntry.itemIds' is defined here.
+   String get tokenId; List<String> get itemIds;
+                                        ^^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:612:24: Context: '_$SearchIndexEntry.toJson' is defined here.
+    Map<String, dynamic> toJson();
+                         ^^^^^^
+  lib/src/features/offline/domain/offline_manifest.freezed.dart:604:13: Context: '_$SearchIndexEntry.tokenId' is defined here.
+   String get tokenId; List<String> get itemIds;
+              ^^^^^^^
+  .
+
+To run this test again: /Users/avay/Downloads/develop/flutter/bin/cache/dart-sdk/bin/dart test /Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart -p vm --plain-name 'loading /Users/avay/Downloads/dastan/test/src/features/offline/domain/offline_manifest_test.dart'
+00:00 +0 -1: Some tests failed.                                                                                                                                                                        
